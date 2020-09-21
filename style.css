@@ -1,0 +1,44 @@
+h3 {
+  text-align: center;
+  color: #645E9D;
+  font-family: Candara;
+  font-size: 2em;
+  
+}
+#rock, #paper, #scissors{
+  text-align: center;
+  color: #2d0320ff;;
+  font-family: Candara;
+  font-size: 4.3em;
+  cursor: pointer;
+}
+p{
+  text-align: center;
+  color: #6c969dff;
+  font-family: Candara;
+  font-size: 1.2em;
+}
+
+#result{
+  text-align: center;
+  color: #392b58ff;
+  font-family: Candara;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#resultSpan{
+  text-align: center;
+  color: #6c969dff;
+  font-family: Candara;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+#scoreBox{
+  text-align: center;
+  color: #392b58ff;;
+  font-family: Candara;
+  font-size: 1.2em;
+}
+
