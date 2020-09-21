@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>Rock, Paper, Scissors</title>
+    
+    <link rel="stylesheet" href="/style.css">
+    
+    <script src="/script.js" defer></script>
+  </head>  
+  <body style = "background-color: #99D5C9">
+    
+    <h3>
+      Rock, Paper or Scissors?
+    </h3>
+    <p>
+      Click on your choice 
+    </p>
+    <center>
+    <span id = "rock" onclick = "rps(0)">🗻</span>
+    <span id = "paper" onclick = "rps(1)">📄</span>
+    <span id = "scissors" onclick = "rps(2)">✂️</span>
+    </center>
+    <div id = "result">
+      <br>
+      Game summary:
+      
+    </div>
+    <div id = "scoreBox">
+    Your Score:<span id = "humanScore"></span><br>
+    Computer Score:<span id = "computerScore"></span>
+    </div>
+    <span id = "resultSpan"></span>
+    
+  </body>
+</html>
